@@ -1,0 +1,29 @@
+body {
+	background-color: #ddd;
+}
+li{
+	list-style-type: checkbox;
+}
+#blueheader{
+	color: #77BCFD;
+	font-family: cursive;
+}
+.maindiv{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 700px;
+	margin: 20px;
+}
+.firstdiv{
+	background-color: #eee;
+}
+.task input:checked + .text {
+    text-decoration: line-through;
+    background-color: #F9F9F9;
+}
+#createbutton{
+	background-color: #C5CACB;
+	border-radius: 3px;
+}

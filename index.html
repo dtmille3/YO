@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body class="body">
+    <div class="maindiv">
+    	<header>
+    	   <div class="firstdiv">
+                <h1 id="blueheader">Things To Do</h1>
+                    <form id="create-task">
+                    <input id="create-text" type="text" placeholder="Enter task description">
+                    <select name="importance" id="create-importance">
+                        <option value="low">Low</option>
+                        <option value="" selected>Normal</option>
+                        <option value="high">High</option>
+                    </select>
+                    <input id="createbutton" type="button" value="Create">
+                    </form>
+                    <input id="show-completed" type="checkbox" checked>
+                    <label for="show-completed">Show completed tasks</label>
+            </div>
+    	</header>
+    	<div class="task">
+        	<input id="task-1" type="checkbox">
+            <label for="task-1" class="text">Do something</label>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
